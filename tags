@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+API_SRC	build/Makefile	/^API_SRC= $(PWD)\/..\/src$/;"	m
+BUFFER_SZ	inc/daemon_header.h	17;"	d
+CC	build/Makefile	/^CC=gcc$/;"	m
+CreateDaemon	src/daemon_main.c	/^int CreateDaemon(void)$/;"	f
+CreateLogFile	src/server_sock.c	/^int CreateLogFile(void)$/;"	f
+CreateSocket	src/server_sock.c	/^int CreateSocket(int *Sockfd)$/;"	f
+ERR_VAL	inc/daemon_header.h	15;"	d
+INC	build/Makefile	/^INC= -I$(PWD)\/..\/inc\/$/;"	m
+OUTPUT_EXE	build/Makefile	/^OUTPUT_EXE=$(OUT_DIR)\/testApp$/;"	m
+OUT_DIR	build/Makefile	/^OUT_DIR=$(PWD)\/..\/bin$/;"	m
+PORT	client_src/client_process.c	7;"	d	file:
+PORT	inc/daemon_header.h	14;"	d
+SRC	build/Makefile	/^SRC=$(API_SRC)\/daemon_main.c \\$/;"	m
+SUCCESS	inc/daemon_header.h	16;"	d
+_DAEMON_HEADER_H	inc/daemon_header.h	2;"	d
+main	client_src/client_process.c	/^int main(int argc, char const *argv[]) $/;"	f
+main	src/daemon_main.c	/^int main(int argc, char *argv[])$/;"	f
+sAddr	src/server_sock.c	/^struct sockaddr_in sAddr;$/;"	v	typeref:struct:sockaddr_in
